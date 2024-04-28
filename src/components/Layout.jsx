@@ -2,10 +2,10 @@ import React from 'react'
 import Navigation from './Navigation'
 import { Outlet } from 'react-router-dom'
 
-const Layout = ({setsideBar}) => {
+const Layout = ({setSideBar}) => {
   return (
     <>
-    <Navigation setSideBar={setsideBar}/>
+    <Navigation setSideBar={setSideBar}/>
     <Outlet/>
     </>
   )
